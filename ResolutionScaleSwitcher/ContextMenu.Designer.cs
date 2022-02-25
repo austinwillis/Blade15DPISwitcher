@@ -29,8 +29,6 @@ namespace ResolutionScaleSwitcher
             base.Dispose(disposing);
         }
 
-        #region Windows Form Designer generated code
-
         /// <summary>
         ///  Required method for Designer support - do not modify
         ///  the contents of this method with the code editor.
@@ -82,7 +80,7 @@ namespace ResolutionScaleSwitcher
             // 
             this.notifyIcon.ContextMenuStrip = this.contextMenu;
             this.notifyIcon.Icon = ((System.Drawing.Icon)(resources.GetObject("notifyIcon1.Icon")));
-            this.notifyIcon.Text = "Form1 (NotifyIcon example)";
+            this.notifyIcon.Text = "DPI Switcher";
             this.notifyIcon.Visible = true;
             this.notifyIcon.Click += new System.EventHandler(this.notifyIcon1_RightClick);
         }
@@ -103,7 +101,5 @@ namespace ResolutionScaleSwitcher
         {
             Application.Exit();
         }
-
-        #endregion
     }
 }

@@ -91,8 +91,6 @@ namespace ResolutionScaleSwitcher
 
         private static void SetResolution(int w, int h)
         {
-            long RetVal = 0;
-
             DEVMODE dm = new DEVMODE();
 
             dm.dmSize = (short)Marshal.SizeOf(typeof(DEVMODE));
